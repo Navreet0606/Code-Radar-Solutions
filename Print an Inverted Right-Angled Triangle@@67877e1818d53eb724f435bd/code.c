@@ -1,9 +1,9 @@
-// Your code here...
 #include<stdio.h>
-int main(){
+int main()
+{
     int i,j;
     scanf("%d",&i);
-    for(i>0;i--)
+    for(;i>0;i--)
     {
         for(j=i;j>0;j--)
         {
