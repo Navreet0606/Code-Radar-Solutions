@@ -10,6 +10,7 @@ int main(){
         for(j=N+1;j<=N+1;j++){
             printf("* ");
         }
+        printf("\n");
         
     }
 
