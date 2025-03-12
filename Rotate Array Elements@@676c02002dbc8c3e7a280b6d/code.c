@@ -12,8 +12,8 @@ int main(){
         if(K<=j){
             arr[j+2]=arr[j];
         }
-        else if(k>j){
-            arr[j-(k+1)]=arr[j];
+        else if(K>j){
+            arr[j-(K+1)]=arr[j];
         }
     }
     for(int a=0;a<N;a++)
