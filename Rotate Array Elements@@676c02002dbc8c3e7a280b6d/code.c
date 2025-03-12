@@ -8,11 +8,11 @@ int main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&K);
-    for(j=0;j<N;j++){
+    for(int j=0;j<N;j++){
         if(K<=i){
             arr[i+2]=arr[i];
         }
-        if(k>i){
+        else if(k>i){
             arr[i-(k+1)]=arr[i];
         }
     }
