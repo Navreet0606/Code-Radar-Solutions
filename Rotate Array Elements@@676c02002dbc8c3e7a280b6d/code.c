@@ -9,7 +9,7 @@ int main(){
     }
     scanf("%d",&K);
     for(int j=0;j<N;j++){
-        if(K<=j){
+        if(j<=K){
             arr[j+K]=arr[j];
 
         }
