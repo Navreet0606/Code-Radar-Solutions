@@ -9,14 +9,13 @@ int main(){
     }
     scanf("%d",&K);
     for(int j=0;j<N;j++){
-        if(j>K){
-            arr[j-(K+1)]=arr[j];
-        }
-        else{
+        if(j<=K){
             arr[j+K]=arr[j];
 
         }
-        
+        else{
+            arr[j-(K+1)]=arr[j];
+        }
     }
     for(int a=0;a<N;a++)
     {
