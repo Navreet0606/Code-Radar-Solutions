@@ -10,7 +10,8 @@ int main(){
     scanf("%d",&K);
     for(int j=0;j<N;j++){
         if(K<=j){
-            arr[j+2]=arr[j];
+            arr[j+K]=arr[j];
+
         }
         else if(K>j){
             arr[j-(K+1)]=arr[j];
