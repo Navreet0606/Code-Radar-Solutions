@@ -12,7 +12,7 @@ int main(){
         if(j>K){
             arr[j-(K+1)]=arr[j];
         }
-        else if(j<=K){
+        else{
             arr[j+K]=arr[j];
 
         }
