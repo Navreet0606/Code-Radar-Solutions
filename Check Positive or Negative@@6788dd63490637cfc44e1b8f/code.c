@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int a,b;
+    int a;
     if(a>0){
         printf("Positive");
     }
