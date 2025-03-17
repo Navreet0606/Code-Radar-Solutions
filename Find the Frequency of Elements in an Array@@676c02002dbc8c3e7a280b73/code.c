@@ -17,7 +17,7 @@ int main(){
             }
             else
             {
-                continue
+                continue;
             }
             printf("%d %d\n",arr[i],j);
         }
