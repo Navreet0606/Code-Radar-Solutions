@@ -19,8 +19,9 @@ int main(){
             {
                 continue;
             }
-            printf("%d %d\n",arr[i],j);
+            
         }
+        printf("%d %d\n",arr[i],j);
     }
 
 
