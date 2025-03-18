@@ -11,9 +11,8 @@ int main()
         sum=sum+arr[i]%10;
         arr[i]/10;
         nav[i]=sum;
-        printf("%d",nav[i]);
+        printf("%d ",nav[i]);
 
         }
     }
 
-}
