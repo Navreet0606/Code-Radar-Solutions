@@ -8,10 +8,12 @@ int main(){
         scanf("%d",&arr[i]);
     }
     
-    for(int i=0;i<N;i++){
-        int j=0;
-        for(int a=0;a<N-a;arr[a++])
+    for(int i=0;i<N;i++)
+    {
+        int j=0
+        for(int a=0;a<N-a;a++)
         {
+        
             if(arr[i]==arr[a])
             {
                 j+=1;
