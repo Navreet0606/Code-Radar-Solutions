@@ -11,7 +11,7 @@ int main(){
     for(int i=0;i<N;i++)
     {
         
-        for(int a=0;a<N-a;a++)
+        for(int a=0;a<N;a++)
         {
         
             if(arr[i]==arr[a])
