@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int j=0;j<N;j++){
-        for(int k=j+1;k<N-j;k++){
+        for(int k=j+1;k<N;k++){
             if(arr[j]>=arr[k]||j==N)
             {
                 nav[j]=arr[j];
