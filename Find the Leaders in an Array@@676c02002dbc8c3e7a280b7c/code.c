@@ -10,9 +10,9 @@ int main(){
     }
     for(int j=0;j<N;j++){
         for(int k=j+1;k<N-j,k++){
-            if(arr[j]>=arr[k]||j=N)
+            if(arr[j]>=arr[k]||j==N)
             {
-                nav[j]=arr[j]
+                nav[j]=arr[j];
             }
             else
             {
