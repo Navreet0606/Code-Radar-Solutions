@@ -15,6 +15,7 @@ int main(){
         }
 
     }
+    printf("%d",count);
     // for(j=0;j<N;j++){
     //     if(arr[j]==T)
     //     {
@@ -24,15 +25,15 @@ int main(){
     //     }
     // }
     
-    if(count>0){
-        printf("%d",first);
+    // if(count>0){
+    //     printf("%d",first);
 
-    }
-    else{
+    // }
+    // else{
         
-        printf("%d",count);
-        printf("%d",-1);
-    }
+    //     printf("%d",count);
+    //     printf("%d",-1);
+    // }
 
 
 }
