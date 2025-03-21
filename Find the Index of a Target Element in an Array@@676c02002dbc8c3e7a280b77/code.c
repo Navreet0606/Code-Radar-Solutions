@@ -13,6 +13,7 @@ int main(){
     for(j=0;j<N;j++){
         if(arr[j]==T)
         {
+            first=0;
             count+=1;
             first=j;
         }
@@ -23,6 +24,7 @@ int main(){
 
     }
     else{
+        
         printf("%d",count);
         printf("%d",-1);
     }
