@@ -5,7 +5,7 @@ int main(){
     int j,first;
     int count=0;
     scanf("%d",&N);
-    scanf("%d",&T);
+    
     int arr[N];
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
@@ -15,6 +15,7 @@ int main(){
         // }
 
     }
+    scanf("%d",&T);
     // printf("%d",count);
     for(j=0;j<N;j++)
     {
