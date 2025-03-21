@@ -27,14 +27,15 @@ int main(){
         }
     }
     // printf("%d",count);
-    if(count>0){
-        printf("%d",first);
-
-    }
-    else if(count==N)
+    if(count==N)
     {
         printf("0");
     }
+    else if(count>0){
+        printf("%d",first);
+
+    }
+    
     else{
         
         // printf("%d",count);
