@@ -21,7 +21,7 @@ int main(){
     {
         if(arr[j]==T)
         {
-            first=0;
+            //first=0;
             count+=1;
             first=j;
         }
