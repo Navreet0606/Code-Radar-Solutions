@@ -31,6 +31,10 @@ int main(){
         printf("%d",first);
 
     }
+    else if(count==N)
+    {
+        printf("0");
+    }
     else{
         
         // printf("%d",count);
