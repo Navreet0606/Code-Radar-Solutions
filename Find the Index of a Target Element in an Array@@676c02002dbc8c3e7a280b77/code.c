@@ -9,22 +9,23 @@ int main(){
     int arr[N];
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
-        if(arr[i]==T)
-        {
-            count=count+1;
-        }
+        // if(arr[i]==T)
+        // {
+        //     count=count+1;
+        // }
 
     }
+    // printf("%d",count);
+    for(j=0;j<N;j++)
+    {
+        if(arr[j]==T)
+        {
+            // first=0;
+            count+=1;
+            // first=j;
+        }
+    }
     printf("%d",count);
-    // for(j=0;j<N;j++){
-    //     if(arr[j]==T)
-    //     {
-    //         first=0;
-    //         count+=1;
-    //         first=j;
-    //     }
-    // }
-    
     // if(count>0){
     //     printf("%d",first);
 
