@@ -21,21 +21,21 @@ int main(){
     {
         if(arr[j]==T)
         {
-            // first=0;
+            first=0;
             count+=1;
-            // first=j;
+            first=j;
         }
     }
-    printf("%d",count);
-    // if(count>0){
-    //     printf("%d",first);
+    // printf("%d",count);
+    if(count>0){
+        printf("%d",first);
 
-    // }
-    // else{
+    }
+    else{
         
-    //     printf("%d",count);
-    //     printf("%d",-1);
-    // }
+        // printf("%d",count);
+        printf("%d",-1);
+    }
 
 
 }
