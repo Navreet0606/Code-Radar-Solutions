@@ -12,7 +12,7 @@ int main(){
     }
     for(j=0;j<N;j++){
         if(arr[j]==T){
-            count+=0;
+            count+=1;
             first=j;
         }
     }
