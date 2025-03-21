@@ -11,17 +11,19 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(j=0;j<N;j++){
-        if(arr[j]==T){
+        if(arr[j]==T)
+        {
             count+=1;
             first=j;
         }
     }
-    if(count==0){
-        printf("%d",-1);
-    }
-    else{
+    
+    if(count>0){
         printf("%d",first);
 
+    }
+    else{
+        printf("%d",-1);
     }
 
 
