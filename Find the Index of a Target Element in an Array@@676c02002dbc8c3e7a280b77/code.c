@@ -23,6 +23,7 @@ int main(){
 
     }
     else{
+        printf("%d",count);
         printf("%d",-1);
     }
 
