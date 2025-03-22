@@ -12,6 +12,6 @@ int main(){
         arr2[i]=sum;
     }
     for(int j=0;j<N;j++){
-        printf("%d",arr2[j]);
+        printf("%d ",arr2[j]);
     }
 }
