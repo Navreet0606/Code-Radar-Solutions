@@ -12,7 +12,6 @@ int main(){
     {
         for(int i=1;i<N;i++)
         {
-            
             if(arr[i]<=arr[i+1])
             {
                 c=0;
@@ -20,8 +19,6 @@ int main(){
             }
             else
             {
-                c=1;
-                return c;
                 break;
             }
         }
@@ -38,8 +35,6 @@ int main(){
             }
             else
             {
-                c=1;
-                return c;
                 break;
             }
         }
