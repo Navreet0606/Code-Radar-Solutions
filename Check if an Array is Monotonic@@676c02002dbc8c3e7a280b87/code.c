@@ -16,6 +16,7 @@ int main(){
             if(arr[i]<=arr[i+1])
             {
                 c=0;
+                return c;
             }
             else
             {
@@ -33,6 +34,7 @@ int main(){
             if(arr[i]>=arr[i+1])
             {
                 c=0;
+                return c;
             }
             else
             {
@@ -42,7 +44,7 @@ int main(){
             }
         }
     }
-    if(c=0)
+    if(c=1)
     {
         printf("YES");
     }
