@@ -17,7 +17,7 @@ int main(){
                 c=0;
                 // return c;
             }
-            else
+            else if(arr[i]>arr[i+1])
             {
                 c=1;
                 break;
@@ -34,7 +34,7 @@ int main(){
                 c=0;
                 // return c;
             }
-            else
+            else if(arr[i]<arr[i+1])
             {
                 c=1;
                 break;
