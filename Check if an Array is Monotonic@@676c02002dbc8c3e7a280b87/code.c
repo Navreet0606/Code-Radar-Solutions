@@ -31,7 +31,7 @@ int main(){
             if(arr[i]>=arr[i+1])
             {
                 c=0;
-                return c;
+                // return c;
             }
             else
             {
