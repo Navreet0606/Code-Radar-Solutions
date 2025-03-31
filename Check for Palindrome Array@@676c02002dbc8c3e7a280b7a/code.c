@@ -8,7 +8,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int j=0;j<N;j++){
-        if(arr[i]!=arr[N-i-1]){
+        if(arr[j]!=arr[N-j-1]){
             printf("NO");
             c=1;
             break;
