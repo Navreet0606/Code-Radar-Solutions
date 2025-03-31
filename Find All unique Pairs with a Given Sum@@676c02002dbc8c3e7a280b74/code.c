@@ -16,6 +16,7 @@ int main(){
                 arr[j] = temp;
             }
         }
+    }
     for(int j=0;j<N;j++){
         int sum=0;
         for(int k=j+1;k<N;k++){
