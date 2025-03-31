@@ -23,6 +23,11 @@ int main(){
             if(arr[j]+arr[k]==T){
                 printf("%d %d\n",arr[j],arr[k]);
             }
+            while (k < N - 1 && arr[k] == arr[k + 1]) {
+                    k++;  
+                }
+
+                break; 
 
         }
 
