@@ -3,6 +3,7 @@
 #include<stdlib.h>
 int main(){
     int N,index,j;
+    int c=0;
     scanf("%d",&N);
     int arr[N];
     arr[index]=0;
@@ -23,13 +24,16 @@ int main(){
 
             }
             else{
-                printf("-1");
+                c=1;
             }
 
             
             
             
 
+        }
+        if(c==1){
+            printf("-1");
         }
          printf("%d",arr[N-2]);
         
