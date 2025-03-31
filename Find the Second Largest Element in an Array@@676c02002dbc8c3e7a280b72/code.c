@@ -15,9 +15,10 @@ int main(){
                 arr[index]=arr[j];
 
             }
-            printf("%d ",arr[N-j-1]);
+            
 
         }
+        printf("%d ",arr[N-j-1]);
         
         
     }
