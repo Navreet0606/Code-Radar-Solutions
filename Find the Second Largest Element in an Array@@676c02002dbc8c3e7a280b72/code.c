@@ -11,17 +11,18 @@ int main(){
             scanf("%d",&arr[i]);
         }
         for(j=0;j<N;j++){
+
+            if(arr[j]>arr[j+1])
+            {
+                arr[index]=arr[j];
+
+            }
             if(arr[j]==arr[j+1]){
                  printf("-1");
                  
             }
             break;
             
-            if(arr[j]>arr[j+1])
-            {
-                arr[index]=arr[j];
-
-            }
             
             
 
