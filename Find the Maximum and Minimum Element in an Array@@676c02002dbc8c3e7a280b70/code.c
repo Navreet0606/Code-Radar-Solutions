@@ -15,12 +15,10 @@ int main(){
                 max=arr[i];
             
             }
-            else{
-                min=arr[i];
-            }
+    
         }
         
     }
-    printf("%d %d",min,max);
+    printf("%d",max);
 
 }
