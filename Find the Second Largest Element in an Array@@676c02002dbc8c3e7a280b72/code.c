@@ -16,10 +16,10 @@ int main(){
                 arr[index]=arr[j];
 
             }
-            if(arr[j]==arr[j+1]||N==1){
+            if(arr[j]==arr[j+1]){
                 return -1;
             }
-            //  printf("%d ",arr[j]);
+            
             
 
         }
