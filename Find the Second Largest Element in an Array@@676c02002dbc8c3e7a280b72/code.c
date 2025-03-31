@@ -3,7 +3,7 @@
 int main(){
     int N,index;
     scanf("%d",&N);
-    int arr[N]
+    int arr[N];
     arr[index]=0
         for(i=0;i<N;i++)
         {
