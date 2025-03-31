@@ -47,8 +47,9 @@ int main(){
             for(int j=i+1;j<N;j++){
                 if(arr[i]==arr[j]){
                     count+=1;
+                    arr[j]=-1;
                 }
-                arr[j]=-1;
+                
             }
         }
         printf("%d %d",arr[i],count);
