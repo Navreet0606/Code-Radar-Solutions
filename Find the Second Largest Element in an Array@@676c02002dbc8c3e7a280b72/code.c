@@ -12,7 +12,7 @@ int main(){
         }
         for(j=0;j<N;j++){
             if(arr[j]==arr[j+1]){
-                return -1;
+                 printf("-1");
             }
             
             if(arr[j]>arr[j+1])
