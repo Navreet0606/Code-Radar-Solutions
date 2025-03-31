@@ -10,7 +10,8 @@ int main(){
             scanf("%d",&arr[i]);
         }
         for(int j=0;j<N;j++){
-            if(arr[j]>arr[j+1]){
+            if(arr[j]>arr[j+1])
+            {
                 arr[index]=arr[j];
 
             }
@@ -20,4 +21,3 @@ int main(){
         
         
     }
-}
