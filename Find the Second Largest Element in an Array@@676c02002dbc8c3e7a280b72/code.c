@@ -19,7 +19,7 @@ int main(){
             
 
         }
-        printf("%d",arr[index-1]);
+        printf("%d",arr[index+1]);
         
         
         
