@@ -16,9 +16,9 @@ int main(){
                 arr[index]=arr[j];
 
             }
-            if(arr[j]==arr[j+1]){
-                return -1;
-            }
+            // if(arr[j]==arr[j+1]){
+            //     return -1;
+            // }
             
             
 
