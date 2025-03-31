@@ -1,5 +1,6 @@
 // Your code here...
 #include<stdio.h>
+#include<stdlib.h>
 int main(){
     int N,index,j;
     scanf("%d",&N);
@@ -14,6 +15,9 @@ int main(){
             {
                 arr[index]=arr[j];
 
+            }
+            if(arr[j]==arr[j+1]||N==1){
+                return -1;
             }
             //  printf("%d ",arr[j]);
             
