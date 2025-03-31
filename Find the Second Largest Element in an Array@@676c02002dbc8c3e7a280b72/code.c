@@ -35,7 +35,10 @@ int main(){
         if(c==1){
             printf("-1");
         }
+        else{
+
          printf("%d",arr[N-2]);
+        }
         
         
         
