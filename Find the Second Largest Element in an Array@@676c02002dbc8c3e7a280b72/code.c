@@ -18,7 +18,7 @@ int main(){
             
 
         }
-        printf("%d ",arr[N-j-1]);
+        printf("%d ",arr[j]);
         
         
     }
