@@ -11,16 +11,19 @@ int main(){
             scanf("%d",&arr[i]);
         }
         for(j=0;j<N;j++){
-            if(arr[j]==arr[j+1]){
-                 printf("-1");
+            // if(arr[j]==arr[j+1]){
+            //      printf("-1");
                  
-            }
-            break;
+            // }
+            // break;
 
             if(arr[j]>arr[j+1])
             {
                 arr[index]=arr[j];
 
+            }
+            else{
+                printf("-1");
             }
 
             
