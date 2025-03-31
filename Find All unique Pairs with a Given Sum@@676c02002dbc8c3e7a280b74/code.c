@@ -12,7 +12,7 @@ int main(){
         int sum=0;
         for(int k=j+1;k<N;k++){
             if(arr[j]+arr[k]==T){
-                printf("%d %d\n",arr[j]);
+                printf("%d %d\n",arr[j],arr[k]);
             }
 
         }
