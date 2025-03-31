@@ -15,7 +15,7 @@ int main(){
                 arr[index]=arr[j];
 
             }
-            printf("%d ",arr[j]);
+            printf("%d ",arr[N-j-1]);
             
 
         }
