@@ -58,7 +58,7 @@ int main(){
                 
                 }
              }
-             printf("%d",arr[k]);
+             printf("%d",arr[j]);
         }
         
 }
