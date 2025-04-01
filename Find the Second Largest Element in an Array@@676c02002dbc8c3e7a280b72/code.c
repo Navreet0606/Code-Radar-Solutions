@@ -42,7 +42,7 @@ int main(){
     int N,index,j,k;
     scanf("%d",&N);
     int arr[N];
-    arr[index]=0;
+    // arr[index]=0;
     for(int i=0;i<N;i++)
     {
         scanf("%d",&arr[i]);
