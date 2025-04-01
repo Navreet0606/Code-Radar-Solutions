@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    int arr2[N]
+    int arr2[N];
     int index=0;
     int maxright=arr[n-1];
     arr2[index]=maxright;
