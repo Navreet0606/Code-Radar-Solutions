@@ -11,7 +11,7 @@ int main(){
     int index=0;
     int maxright=arr[N-1];
     arr2[index]=maxright;
-    for(int j=N-2;j>0;j--){
+    for(int j=N-2;j>=0;j--){
         if(arr[j]>=maxright){
             maxright=arr[j];
             index++;
