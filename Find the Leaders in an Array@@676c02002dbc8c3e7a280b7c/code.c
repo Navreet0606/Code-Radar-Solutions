@@ -9,9 +9,9 @@ int main(){
     }
     int arr2[N];
     int index=0;
-    int maxright=arr[n-1];
+    int maxright=arr[N-1];
     arr2[index]=maxright;
-    for(int j=n-2;j>0;j--){
+    for(int j=N-2;j>0;j--){
         if(arr[j]>=maxright){
             index+=1;
             arr2[index]=arr[j];
