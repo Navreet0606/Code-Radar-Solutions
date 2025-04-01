@@ -49,6 +49,10 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(j=0;j<N;j++){
+        if(N==1){
+        	printf("-1");
+            break;
+    }
         for(k=j+1;k<N;k++){
             
             if(arr[j]>arr[k])
@@ -67,13 +71,8 @@ int main(){
         }
             
     }
-    if(c!=1)
-    {
         printf("%d ",arr[N-2]);
-    }
-    else if(N==1){
-        	printf("-1");
-    }
+    
     
 
         
