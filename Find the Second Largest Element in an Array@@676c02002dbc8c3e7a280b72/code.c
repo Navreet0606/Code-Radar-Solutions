@@ -43,23 +43,23 @@ int main(){
     scanf("%d",&N);
     int arr[N];
     arr[index]=0;
-        for(int i=0;i<N;i++)
-        {
-            scanf("%d",&arr[i]);
-        }
-        for(j=0;j<N;j++){
-            for(k=j+1;k<N;j++){
-                
-                if(arr[j]>arr[k])
-                {
-                    int temp=arr[j];
-                    arr[j]=arr[k];
-                    arr[k]=temp;
-                
-                }
-             }
-             printf("%d",arr[j]);
-        }
+    for(int i=0;i<N;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    for(j=0;j<N;j++){
+        for(k=j+1;k<N;k++){
+            
+            if(arr[j]>arr[k])
+            {
+                int temp=arr[j];
+                arr[j]=arr[k];
+                arr[k]=temp;
+            
+            }
+            }
+            printf("%d",arr[j]);
+    }
         
 }
             
