@@ -51,6 +51,7 @@ int main(){
     for(j=0;j<N;j++){
         if(N==1){
         	printf("-1");
+            c=1;
             break;
     }
         for(k=j+1;k<N;k++){
@@ -71,7 +72,10 @@ int main(){
         }
             
     }
+    if(c!=1)
+    {
         printf("%d ",arr[N-2]);
+    }
     
     
 
