@@ -13,14 +13,16 @@ int main(){
     arr2[index]=maxright;
     for(int j=N-2;j>0;j--){
         if(arr[j]>=maxright){
-            index+=1;
-            arr2[index]=arr[j];
+            maxright=arr[j];
+            index++;
+            arr2[index]=maxright;
+
 
         }
 
     }
     for(int k=index;k>=0;k--){
-        printf("%d",arr2[k]);
+        printf("%d ",arr2[k]);
     }
     
 
