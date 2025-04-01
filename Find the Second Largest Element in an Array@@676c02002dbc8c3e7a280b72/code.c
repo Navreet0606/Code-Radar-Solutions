@@ -57,12 +57,12 @@ int main(){
                 arr[j]=arr[k];
                 arr[k]=temp;
             }
-            if(arr[j]==arr[k])
-            {
-                c=1;
-                // printf("-1");
-                break;
-            }
+            // if(arr[j]==arr[k])
+            // {
+            //     c=1;
+            //     // printf("-1");
+            //     break;
+            // }
 
         }
             
@@ -71,7 +71,7 @@ int main(){
     {
         printf("%d ",arr[N-2]);
     }
-    else{
+    else if(N==1){
         	printf("-1");
     }
     
