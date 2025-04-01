@@ -57,10 +57,10 @@ int main(){
                 arr[k]=temp;
             
             }
-            }
+        }
             // printf("%d",arr[j]);
     }
-    
+
         
 }
             
