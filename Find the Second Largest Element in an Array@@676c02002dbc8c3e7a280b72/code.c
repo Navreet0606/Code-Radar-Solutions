@@ -42,6 +42,7 @@ int main(){
     int N,index,j,k;
     scanf("%d",&N);
     int arr[N];
+    int c=0;
     // arr[index]=0;
     for(int i=0;i<N;i++)
     {
@@ -55,12 +56,21 @@ int main(){
                 int temp=arr[j];
                 arr[j]=arr[k];
                 arr[k]=temp;
-            
             }
+            if(N==1||arr[j]==arr[k])
+            {
+                c=1;
+                printf("-1");
+            }
+
         }
             
     }
-    printf("%d ",arr[N-2]);
+    if(c==0)
+    {
+        printf("%d ",arr[N-2]);
+    }
+    
 
         
 }
