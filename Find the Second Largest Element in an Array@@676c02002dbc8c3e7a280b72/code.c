@@ -60,16 +60,19 @@ int main(){
             if(N==1)
             {
                 c=1;
-                printf("-1");
+                // printf("-1");
                 break;
             }
 
         }
             
     }
-    if(c==0)
+    if(c!=1)
     {
         printf("%d ",arr[N-2]);
+    }
+    else{
+        	printf("-1");
     }
     
 
