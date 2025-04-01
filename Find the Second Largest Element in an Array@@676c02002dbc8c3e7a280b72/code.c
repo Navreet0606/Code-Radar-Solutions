@@ -57,7 +57,7 @@ int main(){
                 arr[j]=arr[k];
                 arr[k]=temp;
             }
-            if(N==1)
+            if(arr[j]==arr[k])
             {
                 c=1;
                 // printf("-1");
