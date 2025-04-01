@@ -4,24 +4,24 @@ int main(){
     int N;
     scanf("%d",&N);
     int arr[N];
-    int nav[N];
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    for(int j=0;j<N;j++){
-        for(int k=j+1;k<N;k++){
-            if(arr[j]>=arr[k]||j==N)
-            {
-                nav[j]=arr[j];
-            }
-            else
-            {
-                continue;
-            }
+    int arr2[N]
+    int index=0;
+    int maxright=arr[n-1];
+    arr2[index]=maxright;
+    for(int j=n-2;j>0;j--){
+        if(arr[j]>=maxright){
+            index+=1;
+            arr2[index]=arr[j];
+
         }
+
     }
-    for(int i=0;i<N;i++)
-    {
-        printf("%d ",nav[i]);
+    for(int k=index;k>=0;k--){
+        printf("%d",arr2[k]);
     }
+    
+
 }
